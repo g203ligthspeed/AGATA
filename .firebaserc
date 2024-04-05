@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "agata-1d2e6": {
+      "hosting": {
+        "app": [
+          "agata-1d2e6"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "agata-1d2e6"
+  }
+}

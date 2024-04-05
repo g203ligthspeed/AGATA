@@ -1,0 +1,69 @@
+<!-- home.page.html -->
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Mi Hogar
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card (click)="toggleWindow('cocina')">
+          <ion-icon name="restaurant"></ion-icon>
+          <ion-card-header>
+            Cocina
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card (click)="toggleWindow('cuarto')">
+          <ion-icon name="bed"></ion-icon>
+          <ion-card-header>
+            Cuarto
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <!-- Repite lo siguiente para las otras áreas -->
+    <ion-row>
+      <ion-col size="6">
+        <ion-card (click)="toggleWindow('baño')">
+          <ion-icon name="water"></ion-icon>
+          <ion-card-header>
+            Baño
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card (click)="toggleWindow('garage')">
+          <ion-icon name="car"></ion-icon>
+          <ion-card-header>
+            Garage
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card (click)="toggleWindow('comedor')">
+          <ion-icon name="restaurant"></ion-icon>
+          <ion-card-header>
+            Comedor
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card (click)="toggleWindow('sala')">
+          <ion-icon name="tv"></ion-icon>
+          <ion-card-header>
+            Sala
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
